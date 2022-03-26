@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'travel-agency-chatbot'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9A58AD7FBBA44D209DB1659FBC14AE45 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CACE52BE38794C06AF528DC274974B07 }}
