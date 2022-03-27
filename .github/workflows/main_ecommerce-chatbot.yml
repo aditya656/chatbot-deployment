@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'ecommerce-chatbot'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5E6440F432E841C486FED26B1C871BC8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9D41C586FA4840F9BBEB72F5D17A6CC6 }}
