@@ -1,84 +1,135 @@
 {
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
-      ],
-      "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
-      ]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
-    }
-  ]
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "What do you do?",
+                "what are the things u can do",
+                "how can u help me?"
+            ],
+            "responses": [
+                "Ok! We're here to help if you have any questions 💪",
+                "We can help you to find best tourist places."
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "What payment methods are there",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypal?",
+                "Are you cash only?"
+            ],
+            "responses": [
+                "We accept VISA, Mastercard and Paypal",
+                "We accept most major credit cards, and Paypal"
+            ]
+        },
+        {
+            "tag": "Documents",
+            "patterns": [
+                "What Travel Documents Do I Need ?",
+                "What documents do I need",
+                "Are documents necessary"
+
+            ],
+            "responses": [
+                "One must possess a passport which is valid for minimum 6 months from the date of entry into India. Many countries have been included in the list of countries whose citizens are provided E-Visa facility provided they apply 72 hours in advance. Other nationals need to obtain Indian visa in advance to enter India."
+            ]
+        },
+        {
+            "tag": "Plan",
+
+            "patterns": [
+                "How Do I Plan My Tour ?",
+                "Help me to plan my Tour"
+
+            ],
+            "responses": [
+                "It is simple with us. You may get details of well designed tour packages in our digital brochure. if want a particular tailor made tour, let us know your requirements and we can help you designing your trip keeping in mind your specifications and budget."
+            ]
+        }, {
+            "tag": "Booking",
+
+            "patterns": [
+                "How Can I Book My Tour with You ?",
+                "How can I book my tour"
+
+            ],
+            "responses": [
+                "If you are interested in booking any of our brochure tours, you may, You may simply send us an email giving us your details."
+            ]
+        }, {
+            "tag": "Service",
+
+            "patterns": [
+                "What Services Do you Offer ?",
+                "What services do you provide"
+
+            ],
+            "responses": [
+                "We are a one stop travel shop and provide every kind of travel related services for any occasion business or pleasure or both. We organize all arrangements for conferences, trade fairs, exhibitions and events. We specialise in incentive tours, weddings and honeymoons, health tourism, pilgrimage tours, adventure tours or any special interest tours anywhere in India and also to neighbouring countries. You can read in detail about our services by Clicking Here"
+            ]
+        },
+
+
+        {
+            "tag": "Train",
+            "patterns": ["How can we book train ticket",
+                "can we book train ticket"
+            ],
+
+            "responses": [
+                "We collects all the details required for a chosen train, then takes a user to a payment gateway to complete a purchase."
+            ]
+        },
+        {
+            "tag": "Bus",
+            "patterns": ["How can we book bus ticket",
+                "can we book bus ticket"
+            ],
+
+            "responses": [
+                "We collects all the details required for a chosen bus, then takes a user to a payment gateway to complete a purchase."
+            ]
+        }
+
+
+
+    ]
+
+
+
+
 }
