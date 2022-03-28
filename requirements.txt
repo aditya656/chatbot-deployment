@@ -1,3 +1,4 @@
 Flask==2.0.3
 numpy==1.21.5
 jsonify==0.5
+torch==1.11.0
